@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+.card{
+    width: 400px;
+    min-height: 500px;
+    margin: 50px auto;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+
+.card input{
+    width: 70%;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border: none;
+    text-indent: 1rem;
+}
+
+#add{
+    width: 50px;
+    height: 25px;
+    border: none;
+    background-color: greenyellow;
+    border: 2px solid green;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#add:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+
+.card li{
+    position: relative;
+    list-style: none;
+    background-color: greenyellow;
+    margin: 3px 5px;
+    min-height: 30px;
+    max-height: auto;
+    cursor: pointer;
+    text-indent: 10px;
+
+    width: 370px;
+    padding-left: 20px;
+
+    overflow: initial;
+}
+
+#welcome{
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+.done{
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 1rem;
+}
+
+.remove{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 1rem;
+}
+
